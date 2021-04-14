@@ -1,0 +1,50 @@
+/*Removing default browser-enforces styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Defining color and font for the body of index.html */
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;  
+}
+
+/*Applying styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/*Applying styles to h1 title in the header section */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/*Applying styles to all "a" elements in the header section */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/*Applying styles to "nav" element in the header section */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/*Applying inline styles to "nav" elements in header section */
+header nav ul li {
+    display: inline;
+}
+
+/*Applying specific style to "nav"'s "a" elements in the header section */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
