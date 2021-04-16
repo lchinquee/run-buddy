@@ -10,6 +10,7 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;  
 }
+/*Body Style End*/
 
 /*Applying styles to <header> */
 header {
@@ -17,6 +18,7 @@ header {
     background-color: #39a6b2;
 }
 
+/*Header Style Start*/
 /*Applying styles to h1 title in the header section */
 header h1 {
     font-weight: bold;
@@ -49,6 +51,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/*Header Style End*/
 
 /*Applying style to footer */
 footer {
@@ -73,6 +76,7 @@ footer div {
 footer a {
     color: #024e76;
 }
+/*footer style end*/
 
 /*Hero Style Start*/
 .hero {
@@ -83,7 +87,6 @@ footer a {
     background-position: center;
     position: relative;
 }
-/*Hero Style End*/
 
 /*hero-form Style Start*/
 .hero-form {
@@ -96,4 +99,36 @@ footer a {
     bottom: 120px;
     right: 140px;
 }
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    background-color: #024e76;
+    color: #fce138;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
 /*hero-form Style End*/
+/*Hero Style End*/
